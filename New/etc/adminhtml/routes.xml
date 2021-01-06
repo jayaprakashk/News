@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <config>
-   
+   <router id="admin">
+        <route id="News" frontName="New">
+           <module name="News_New" />
+        </route>
+   </router>
 </config>
