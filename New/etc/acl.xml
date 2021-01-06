@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+   <acl>
+       <resources>
+           <resource id="Magnto_Backend::amin">
+               <resource id="Magento_Backend_stores">
+                   <resource id="Magento_Backend::stores_others_settings">
+                       <resource id="News_New::Settings" title="News_New_Seettings">
+                   </resource id="">
+               </resource>
+           </resource>
+       </resources>
+   </acl>
+   
+ 
+</config>
