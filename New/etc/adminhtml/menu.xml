@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
 <config>
-
+  <menu>
+      <add id="News_New::Settings"
+           title="News New List"
+           module="News_New"
+           sortOrder="100"
+           parent="Magento_Backend::other_settings"
+           action="News Settings"
+           resource="News_New::Settings">
+  </menu>
 </config>
